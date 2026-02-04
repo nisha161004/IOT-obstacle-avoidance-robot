@@ -41,7 +41,7 @@ It also supports **Bluetooth control** via an Android application for manual ope
 4. Bluetooth module allows manual override and control via mobile app.
 
 **Circuit Diagram**
-📷 Refer to the circuit diagram in the `circuit_diagram/` folder.
+ circuit diagram is availble in the `circuit_diagram/` folder.
 
 **How to Run the Project**
 1. Install **Arduino IDE**
@@ -55,7 +55,7 @@ It also supports **Bluetooth control** via an Android application for manual ope
 7. Power the robot using a battery pack
 8. Control via Bluetooth app 
 
-## 📸 Project Images
+**Project Images**
 Images of the robot are available in the `images/` folder.
 
 **Future Enhancements**
