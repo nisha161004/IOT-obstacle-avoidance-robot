@@ -6,6 +6,10 @@ This project demonstrates an **IoT-based obstacle avoidance autonomous vehicle**
 The robot detects obstacles using an **HC-SR04 ultrasonic sensor** and autonomously changes its direction to avoid collisions.  
 It also supports **Bluetooth control** via an Android application for manual operation.
 
+ **Project demo and images**
+ 
+ https://drive.google.com/drive/folders/1FYlsXNCW0PGYckp44weqKqfb23lM1U1a
+ 
   **Objectives**
   
 - Design an autonomous vehicle capable of avoiding obstacles
@@ -53,7 +57,18 @@ It also supports **Bluetooth control** via an Android application for manual ope
 5. Select correct **Board** and **COM Port**
 6. Upload the code to Arduino
 7. Power the robot using a battery pack
-8. Control via Bluetooth app 
+8. Control via Bluetooth app
+
+**Code Overview**
+- Sensor code calculates distance using ultrasonic sensor
+- Conditional logic decides movement direction
+- Motor control functions handle forward, left, right, and stop actions
+
+**Results**
+- Robot successfully detects obstacles within set distance
+- Smooth direction changes observed during testing
+- System responds in real time with minimal delay
+
 
 **Project Images**
 Images of the robot are available in the `images/` folder.
